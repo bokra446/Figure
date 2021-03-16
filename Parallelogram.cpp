@@ -1,11 +1,11 @@
+#define _USE_MATH_DEFINES
+
 #include <string>
 #include <iostream>
 #include <cmath>
 #include <cassert>
 #include "Parallelogram.h"
 #include "Figure.h"
-
-#define PI 3.14159265  
 
 Parallelogram::Parallelogram(double a, double b, double alpha){
 		_name = "Parallelogram";
@@ -18,5 +18,5 @@ double Parallelogram::calculateP() const {
 	}
 
 double Parallelogram::calculateS() const {
-		return _a*_b*sin(_alpha * PI / 180);
+		return _a*_b*sin(_alpha *M_PI / 180);
 	}

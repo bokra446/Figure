@@ -22,8 +22,8 @@ int main() {
   RTriangle rtriangle = RTriangle(5, 6);
   Rectangle rectangle = Rectangle(3, 4);
   Parallelogram parallelogram = Parallelogram(3, 4, 30);
-  std::cout << "Calculate S: " << " Circle = " << circle.calculateS() << " Square = " << square.calculateS() << " Ellipse = " << ellipse.calculateS() << " Triangle = " << triangle.calculateS() << " ETriangle = " << etriangle.calculateS() << " ITriangle = " << itriangle.calculateS() << " RTriangle = " << rtriangle.calculateS() << " Rectangle = " << rectangle.calculateS() << " Parallelogram = " << parallelogram.calculateS() << std::endl; 
+  std::cout << "Calculate S: " << " Circle = " << circle.calculateS() << " Square = " << square.calculateS() << "; Ellipse = " << ellipse.calculateS() << "; Triangle = " << triangle.calculateS() << "; ETriangle = " << etriangle.calculateS() << "; ITriangle = " << itriangle.calculateS() << "; RTriangle = " << rtriangle.calculateS() << "; Rectangle = " << rectangle.calculateS() << "; Parallelogram = " << parallelogram.calculateS() << std::endl; 
 
-  std::cout << "Calculate P: " << " Circle = " << circle.calculateP() << " Square = " << square.calculateP() << " Ellipse = " << ellipse.calculateP() << " Triangle = " << triangle.calculateP() << " ETriangle = " << etriangle.calculateP() << " ITriangle = " << itriangle.calculateP() << " RTriangle = " << rtriangle.calculateP() << " Rectangle = " << rectangle.calculateP() << " Parallelogram = " << parallelogram.calculateP() << std::endl; 
+  std::cout << "Calculate P: " << " Circle = " << circle.calculateP() << "; Square = " << square.calculateP() << "; Ellipse = " << ellipse.calculateP() << "; Triangle = " << triangle.calculateP() << "; ETriangle = " << etriangle.calculateP() << "; ITriangle = " << itriangle.calculateP() << "; RTriangle = " << rtriangle.calculateP() << "; Rectangle = " << rectangle.calculateP() << "; Parallelogram = " << parallelogram.calculateP() << std::endl; 
   return 0;
 }

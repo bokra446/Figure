@@ -1,13 +1,11 @@
+#define _USE_MATH_DEFINES
+
 #include <string>
 #include <iostream>
 #include <cmath>
 #include <cassert>
 #include "Figure.h"
-#include "Ellipse.h"
-
-#define PI 3.14159265  
-
-//const double PI = std::atan(1.0)*4;
+#include "Ellipse.h"  
 
 Ellipse::Ellipse(double a, double b){
 		_a = a;
@@ -16,9 +14,9 @@ Ellipse::Ellipse(double a, double b){
 	}
 
 double Ellipse::calculateP() const {
-		return 4 * ((PI * _a * _b + (_a - _b)) / (_a + _b));
+		return 4 * ((M_PI * _a * _b + (_a - _b)) / (_a + _b));
 	}
 	
 double Ellipse::calculateS() const {
-		return PI * _a * _b;
+		return M_PI * _a * _b;
 	}
